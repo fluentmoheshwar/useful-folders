@@ -1,2 +1,3 @@
 # useful-folders
-Open Useful Folders in Windows.
+
+Open Useful Files and Folders in Windows.
