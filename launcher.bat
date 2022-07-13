@@ -20,25 +20,27 @@ ECHO.
 GOTO start
 
 :1
-"Open Host File.bat"
+attrib -r %WINDIR%\system32\drivers\etc\hosts
+start notepad.exe %windir%\system32\drivers\etc\hosts
 exit
 
 :2
-"Open Office Addins Folder.bat"
+explorer.exe %AppData%\Microsoft\AddIns
 exit
 
 :3
-"Open SentTo folder.bat"
+explorer.exe %Appdata%\Microsoft\Windows\SendTo
 exit
 
 :4
-"open start menu folder.bat"
+explorer.exe %AppData%\Microsoft\Windows\Start Menu
 exit
 
 :5
-"open startup folder.bat"
+explorer.exe %AppData%\Microsoft\Windows\Start Menu\Programs\Startup
+explorer.exe C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp
 exit
 
 :6 
-"Open Word Startup Folder.bat"
+explorer.exe %AppData%\Microsoft\Word\STARTUP
 exit
