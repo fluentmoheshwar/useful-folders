@@ -17,7 +17,8 @@ IF '%choice%'=='3' GOTO 3
 IF '%choice%'=='4' GOTO 4
 IF '%choice%'=='5' GOTO 5
 IF '%choice%' == '6' GOTO 6
-IF '%choice%' == '6' GOTO 7
+IF '%choice%' == '7' GOTO 7
+IF '%choice%' == '8' GOTO 8
 ECHO "%choice%" is not valid
 ECHO.
 GOTO start
