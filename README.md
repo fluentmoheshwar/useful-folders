@@ -1,6 +1,4 @@
-# Useful Files and Folder in Windows
-
-Open Useful Files and Folders in Windows.
+![useful-folders](https://socialify.git.ci/fluentmoheshwar/useful-folders/image?description=1&forks=1&issues=1&language=1&name=1&owner=1&pulls=1&stargazers=1&theme=Dark)
 
 ## Stargazers
 
