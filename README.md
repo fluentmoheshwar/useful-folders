@@ -10,12 +10,6 @@ Open Useful Files and Folders in Windows.
 
 [![Forkers repo roster for @fluentmoheshwar/useful-folders](https://reporoster.com/forks/dark/fluentmoheshwar/useful-folders)](https://github.com/fluentmoheshwar/useful-folders/network/members)
 
-## Mirrors
-
-- [GitHub](https://github.com/fluentmoheshwar/useful-folders) (main)
-- [GitLab](https://gitlab.com/fluentmoheshwar/useful-folders)
-- [Bitbucket](https://bitbucket.org/fluentmoheshwar/useful-folders)
-
 ## Some Other Useful Tools
 
 - [Microsoft PowerToys](https://github.com/microsoft/PowerToys)
