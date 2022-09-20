@@ -1,15 +1,16 @@
 @ECHO OFF
 ECHO Open Host File = 1
 ECHO Open Office Addins Folder = 2
-ECHO Open SentTo Folder = 3 
+ECHO Open SentTo Folder = 3
 ECHO Open Start Menu Folder (Current User) = 4
 ECHO Open Start Menu Folder (Current User) = 5
 ECHO Open Startup Folder (Current User) = 6
 ECHO Open Startup Folder (All Users) = 7
 ECHO Open Microsoft Word Startup Folder = 8
+ECHO Open PSReadLine History = 9
 :start
 SET choice=
-SET /p choice=Choose Folder To Open [1-6]: 
+SET /p choice=Choose Folder To Open [1-6]:
 IF NOT '%choice%'=='' SET choice=%choice:~0,1%
 IF '%choice%'=='1' GOTO 1
 IF '%choice%'=='2' GOTO 2
@@ -19,6 +20,7 @@ IF '%choice%'=='5' GOTO 5
 IF '%choice%' == '6' GOTO 6
 IF '%choice%' == '7' GOTO 7
 IF '%choice%' == '8' GOTO 8
+IF '%choice%' == '9' GOTO 9
 ECHO "%choice%" is not valid
 ECHO.
 GOTO start
@@ -55,3 +57,6 @@ exit
 :8
 explorer.exe %AppData%\Microsoft\Word\STARTUP
 exit
+
+:9
+notepad "%AppData%\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt"
