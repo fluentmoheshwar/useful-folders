@@ -1,3 +1,5 @@
+# DEPRECATED! USE [useful-tools](https://github.com/fluentmoheshwar/useful-tools/) instead.
+
 ![useful-folders](https://socialify.git.ci/fluentmoheshwar/useful-folders/image?description=1&forks=1&issues=1&language=1&name=1&owner=1&pulls=1&stargazers=1&theme=Dark)
 
 ## Stargazers
